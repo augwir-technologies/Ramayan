@@ -13,7 +13,7 @@ public class SpawnDestructible : MonoBehaviour
 
     IEnumerator SpawnDestructiblePrefab()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(1);
         originalPrefab.SetActive(false);
         destructiblePrefab.SetActive(true);
         firePrefab.SetActive(true);
